@@ -26,3 +26,7 @@ EOF
 venv/
 __pycache__/
 .env
+# Skip these from being tracked
+downloads/
+screenshot/
+report.html
