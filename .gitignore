@@ -1,0 +1,28 @@
+cat <<EOF > .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.cache/
+.pytest_cache/
+EOF
+venv/
+__pycache__/
+.env
